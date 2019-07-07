@@ -15,76 +15,158 @@
 
 
 <body>
-
-	<header>
-			<div class="jumbotron jumbotron-fluid">
-		<div class="container">
-			<h1 class="display-4">Hello World</h1>
-			<h2 class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</h2>
-		</div>
-	</div>
-	</header>
-
-	<div class="container text-center" style="background-color: orange">
-		<div class="row">
-			<div class="col-md-6">
-				<h3>Jeste mene dulezity nadpis</h3>
-			</div>
-			<div class="col-md-6">
-				<h3>Jeste mene dulezity nadpis</h3>
-			</div>
-		</div>
-	</div>
-	
-	<section id="main">
-		<div>
-			
-			<div>Sem neco zabal</div>
-			<span>Tohle zkus hodit do paragrafu</span>
-			<p>Ja jsem paragraf a slouzim k popsani nejaky veci co vidis na svych strankach</p>
-			<a href="#hovno">google.com</a>
-			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/K_GOTT_PRAHA_2016.jpg/220px-K_GOTT_PRAHA_2016.jpg" alt="Jsem Karel">
-			<ul>
-				<li>Karel</li>
-				<li>Karel2</li>
-				<li>Karel123</li>
-				<li>Karel321</li>
-				<li>Karel512</li>
-				<li>Karel7143</li>
-				<li>Karel1473</li>
+	<nav id="top" class="navbar container navbar-expand-lg navbar-light bg-white">
+		<a class="navbar-brand" href="#">Karel</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav ml-auto text-uppercase">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Features</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Pricing</a>
+				</li>
 			</ul>
-			<ol>
-				<li>Karel</li>
-				<li>Karel2</li>
-				<li>Karel123</li>
-				<li>Karel321</li>
-				<li>Karel512</li>
-				<li>Karel7143</li>
-				<li>Karel1473</li>
-			</ol>
-			<table style="width:100%; margin: auto auto;">
-				<tr>
-					<th>Name:</th>
-					<td>Bill Gates</td>
-				</tr>
-				<tr>
-					<th rowspan="2">Telephone:</th>
-					<td>55577854</td>
-				</tr>
-				<tr>
-					<td>55577855</td>
-				</tr>
-			</table>
+		</div>
+	</nav>
+	<header>
+		<div class="jumbotron jumbotron-fluid">
+			<div class="container text-center">
+				<h1 class="display-4">Tu bydli Karel</h1>
+				<p class="lead">Nemel kam jit, tak si tu ustlal.</p>
+				<a href="#cards"><button type="button" class="btn btn-primary btn-lg">Readmore</button></a>
+				<a href="#footer"><button type="button" class="btn btn-secondary btn-lg">Footer</button></a>
+			</div>
+		</div>		
+	</header>
+	<section id="cards">
+		<div class="container text-center">
+			<div class="row pt-5">
+			<div class="col-sm">
+				<div class="card" style="width: 18rem;">
+					<svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Image cap"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+					<rect width="100%" height="200px" fill="#868e96"></rect>
+					<div class="card-body">
+						<h5 class="card-title">Card title</h5>
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<a href="#" class="btn btn-primary">Go somewhere</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm">
+				<div class="card" style="width: 18rem;">
+					<svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Image cap"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+					<rect width="100%" height="200px" fill="#868e96"></rect>
+					<div class="card-body">
+						<h5 class="card-title">Card title</h5>
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<a href="#" class="btn btn-primary">Go somewhere</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm">
+				<div class="card" style="width: 18rem;">
+					<svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Image cap"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+					<rect width="100%" height="200px" fill="#868e96"></rect>
+					<div class="card-body">
+						<h5 class="card-title">Card title</h5>
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<a href="#" class="btn btn-primary">Go somewhere</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row pt-5">
+			<div class="col-sm">
+				<div class="card" style="width: 18rem;">
+					<svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Image cap"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+					<rect width="100%" height="200px" fill="#868e96"></rect>
+					<div class="card-body">
+						<h5 class="card-title">Card title</h5>
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<a href="#" class="btn btn-primary">Go somewhere</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm">
+				<div class="card" style="width: 18rem;">
+					<svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Image cap"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+					<rect width="100%" height="200px" fill="#868e96"></rect>
+					<div class="card-body">
+						<h5 class="card-title">Card title</h5>
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<a href="#" class="btn btn-primary">Go somewhere</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm">
+				<div class="card" style="width: 18rem;">
+					<svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Image cap"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+					<rect width="100%" height="200px" fill="#868e96"></rect>
+					<div class="card-body">
+						<h5 class="card-title">Card title</h5>
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<a href="#" class="btn btn-primary">Go somewhere</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row pt-5">
+			<div class="col-sm">
+				<div class="card" style="width: 18rem;">
+					<svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Image cap"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+					<rect width="100%" height="200px" fill="#868e96"></rect>
+					<div class="card-body">
+						<h5 class="card-title">Card title</h5>
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<a href="#" class="btn btn-primary">Go somewhere</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm">
+				<div class="card" style="width: 18rem;">
+					<svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Image cap"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+					<rect width="100%" height="200px" fill="#868e96"></rect>
+					<div class="card-body">
+						<h5 class="card-title">Card title</h5>
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<a href="#" class="btn btn-primary">Go somewhere</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm">
+				<div class="card" style="width: 18rem;">
+					<svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Image cap"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+					<rect width="100%" height="200px" fill="#868e96"></rect>
+					<div class="card-body">
+						<h5 class="card-title">Card title</h5>
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<a href="#" class="btn btn-primary">Go somewhere</a>
+					</div>
+				</div>
+			</div>
+		</div>
 		</div>
 	</section>
-
-	<section id="second"></section>
-
-
-
-	<footer>
-		<div>
-			<span>Author: Bill Gates</span>
+	<footer id="footer">
+		<div class="container">
+			<div class="row py-5 text-center">
+				<div class="col-md">
+					
+					<a href="#"><p style="font-size: 18px">Back to top</p></a>
+				</div>
+				<div class="col-md">
+					<p style="font-size: 18px">®Gregor</p>
+				</div>
+				<div class="col-md">
+					<button type="button" class="btn btn-secondary btn-sm">Donate</button>
+				</div>
+			</div>
 		</div>
 	</footer>
 </body>

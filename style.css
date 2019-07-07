@@ -1,33 +1,7 @@
-body, html {
-	margin: 0;
-	padding: 0;
+.nav-item {
+	display: inline;
 }
 
-img {
-	display: block
+.card {
+	margin: auto auto;
 }
-
-ul {
-	list-style: none;
-}
-
-ol {
-	list-style: none;
-	font-weight: bold;
-}
-
-header {
-	padding: 0;
-	text-align: center;
-	margin: 0;
-	width: 100%;
-	background-image: url('http://www.bates.edu/wordpress/files/2016/07/pattern1.jpg');
-	background-position: center;
-	background-size: cover;
-}
-
-header h1 {
-	padding-top: 20px;
-	margin-top: 0;
-}
-
